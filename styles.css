@@ -1,5 +1,7 @@
 :root{
     --primary-color:#7C3AE0;
+    --off-white:#F3F4F6;
+    --dark-grey:#6B7280;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -71,4 +73,47 @@ hr{
 
 .navigation .link-active{
     font-weight: bold;
+}
+.hero{
+ padding: 2rem;
+}
+.hero-img{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+.hero-heading{
+   color: var(--dark-grey);
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+    text-align: center;
+}
+
+/**sections**/
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+   
+}
+.ow{
+    background-color: var(--off-white);
+}
+
+/** Footer **/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
